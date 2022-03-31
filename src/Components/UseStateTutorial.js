@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// Rather than getting elements as in vanilla JS
+// Rather than "getting elements by id" as in vanilla JS
 // React makes altering DOM elements easier with hooks
 // Here we see the useState hook in action
 

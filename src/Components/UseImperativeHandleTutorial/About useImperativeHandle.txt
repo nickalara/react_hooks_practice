@@ -1,0 +1,10 @@
+useImperativeHandle in a nutshell allows for methods which act on object state
+to be passed from one components to another.
+
+The "child" component contains the actual state method and the "parent"
+component calls it.
+
+This can be useful when you don't want a component to be otherwise accessed
+from other parts of the application. This has implications for more secure
+applications, as well as keep distinct parts of the overall app independent
+from each other.

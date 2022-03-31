@@ -28,11 +28,11 @@
 // function App() { return (<UseLayoutEffectTutorial />); }
 // export default App;
 
-// // useImperativeHandle Tutorial App
-// import UseImperativeHandleTutorial from './Components/UseImperativeHandleTutorial';
-// import './App.css';
-// function App() { return (<UseImperativeHandleTutorial />); }
-// export default App;
+// useImperativeHandle Tutorial App
+import ParentButton from './Components/UseImperativeHandleTutorial/ParentButton';
+import './App.css';
+function App() { return (<ParentButton />); }
+export default App;
 
 // // useContext Tutorial App
 // import UseContextTutorial from './Components/UseContextTutorial';
