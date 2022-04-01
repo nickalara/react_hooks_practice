@@ -28,14 +28,14 @@
 // function App() { return (<UseLayoutEffectTutorial />); }
 // export default App;
 
-// useImperativeHandle Tutorial App
-import ParentButton from './Components/UseImperativeHandleTutorial/ParentButton';
-import './App.css';
-function App() { return (<ParentButton />); }
-export default App;
+// // useImperativeHandle Tutorial App
+// import ParentButton from './Components/UseImperativeHandleTutorial/ParentButton';
+// import './App.css';
+// function App() { return (<ParentButton />); }
+// export default App;
 
 // // useContext Tutorial App
-// import UseContextTutorial from './Components/UseContextTutorial';
+// import UseContextTutorial from './Components/UseContextTutorial/UseContextTutorial';
 // import './App.css';
 // function App() { return (<UseContextTutorial />); }
 // export default App;
@@ -46,8 +46,8 @@ export default App;
 // function App() { return (<UseMemoTutorial />); }
 // export default App;
 
-// // useCallback Tutorial App
-// import UseCallbackTutorial from './Components/UseCallbackTutorial';
-// import './App.css';
-// function App() { return (<UseCallbackTutorial />); }
-// export default App;
+// useCallback Tutorial App
+import UseCallbackTutorial from './Components/UseCallbackTutorial/UseCallbackTutorial';
+import './App.css';
+function App() { return (<UseCallbackTutorial />); }
+export default App;
